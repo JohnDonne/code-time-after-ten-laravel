@@ -69,7 +69,8 @@ App::down(function()
 	$ip = Request::getClientIp();
 	
 	$allowed = array(
-		//'10.0.2.2'
+		'10.0.2.2',
+		'212.93.114.92'
 	);
 
 	if(!in_array($ip, $allowed))
